@@ -45,4 +45,4 @@ O curso ainda está em desenvolvimento e as principais tarefas que serão desenv
 
 ## ✏️ Anotações
 
-Veja o arquivo [Método .NET Direto Ao Ponto](https://fortunate-aerosteon-f80.notion.site/Forma-o-ASP-NET-Core-aed0b2988b1c4dbbb58e0c4928fadf23) para mais detalhes.
+Veja o arquivo [Formação ASP.NET Core](https://fortunate-aerosteon-f80.notion.site/Forma-o-ASP-NET-Core-aed0b2988b1c4dbbb58e0c4928fadf23) para mais detalhes.
