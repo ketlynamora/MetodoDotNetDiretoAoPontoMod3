@@ -17,18 +17,18 @@ O curso ainda está em desenvolvimento e as principais tarefas que serão desenv
 - [x] Controllers e Actions
 - [x] Utilizando o Swagger
 - [x] Injeção de Dependência
-- [ ] Arquitetura Limpa
-- [ ] Camada Core
-- [ ] Camada Infrastructure
-- [ ] Camada Application
-- [ ] Camada API 
-- [ ] Persistência de dados
-- [ ] O que é uma ORM
-- [ ] Entity Framework Core
-- [ ] DbContext e DbSet's 
-- [ ] Gerando e Aplicando Migrations
-- [ ] Dapper ORM
-- [ ] O que é CQRS
+- [x] Arquitetura Limpa
+- [x] Camada Core
+- [x] Camada Infrastructure
+- [x] Camada Application
+- [x] Camada API 
+- [x] Persistência de dados
+- [x] O que é uma ORM
+- [x] Entity Framework Core
+- [x] DbContext e DbSet's 
+- [x] Gerando e Aplicando Migrations
+- [x] Dapper ORM
+- [x] O que é CQRS
 - [ ] Commands
 - [ ] Queries
 - [ ] O que é MediatR
