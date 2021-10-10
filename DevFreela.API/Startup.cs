@@ -1,4 +1,7 @@
 using DevFreela.API.Models;
+using DevFreela.Application.Services.Implementations;
+using DevFreela.Application.Services.Interfaces;
+using DevFreela.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,7 +32,13 @@ namespace DevFreela.API
         {
             services.Configure<OpeningTimeOption>(Configuration.GetSection("OpeningTime"));
 
-            services.AddTransient(e => new ExampleClass { Name = "Initial Stage" });
+            services.AddSingleton<DevFreelaDbContext>();
+
+            services.AddScoped<IProjectService, ProjectService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ISkillService, SkillService>();
+
+            services.AddScoped(e => new ExampleClass { Name = "Initial Stage" });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
